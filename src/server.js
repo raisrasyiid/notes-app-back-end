@@ -8,8 +8,8 @@ const init = async () => {
     host: 'localhost',
     routes: {
       cors: {
-        origin: ["http://notesapp-v1.dicodingacademy.com"], // Mengizinkan hanya asal ini
-        credentials: true, // Jika perlu mengizinkan cookie
+        origin: ['*'], 
+        
       },
     },
   });
